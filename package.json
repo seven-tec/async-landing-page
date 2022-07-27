@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/seven-tec/async-landing-page/issues"
   },
-  "homepage": "https://github.com/seven-tec/async-landing-page#readme"
+  "homepage": "https://github.com/seven-tec/async-landing-page#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
