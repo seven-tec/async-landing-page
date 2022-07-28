@@ -18,12 +18,12 @@
               logo: "url('./assets/img/logocircular.png')",
             },
             colors: {
-              black: "#000",
-              white: "#ffffff",
-              gray: "#eeeeee",
-              grayDark: "#222831",
-              "gray-medium": "#393e46",
-              "light-blue": "#00adb5",
+              'black': "#000",
+              'white': "#ffffff",
+              'gray': "#eeeeee",
+              'grayDark': "#222831",
+              'gray-medium': "#393e46",
+              'light-blue': "#00adb5",
             },
             fontFamily: {
               sans: ["Quicksand", "sans-serif"],
@@ -32,6 +32,7 @@
         },
       };
     </script>
+    <script defer src="./assets/main.js"></script>
   </head>
   <body class="font-Quicksand bg-gray">
     <nav
@@ -65,17 +66,15 @@
     </nav>
     <section class="w-full h-full">
       <div class="w-full h-3/4">
-        <div class="w-full h-screen">
-          <div
-            id="sobre_mi"
-            class="h-full w-full flex flex-col px-12 py-96 lg:py-48 lg:space-y-0"
-          >
-            <h1 class="text-2xl lg:text-6xl font-extrabold transition duration-500 ease-in-out hover:text transform hover:translate-x-1 hover:scale-100">
+        <div class="w-full h-auto">
+          <div id="sobre_mi"
+            class="h-full w-full flex flex-col pt-96 lg:pt-48 lg:space-y-0">
+            <h1 class="px-12 text-2xl lg:text-6xl font-extrabold transition duration-500 ease-in-out hover:text transform hover:translate-x-1 hover:scale-100">
               <span class="block inline">Nombre</span>
               <span class="block inline text-light-blue">@Seven</span>
             </h1>
             <div>
-              <p class="py-4 text-md lg:text-xl">
+              <p class="px-12 py-4 text-md lg:text-xl">
                 Estudiante y apasionado de la tecnoligia
               </p>
               <div class="absolute inset-y-0 right-0 lg:px-0 px-12 py-4">
@@ -85,31 +84,20 @@
                   alt="logo seven-tech"
                 />
               </div>
-              <div class="group relative mt-16" id="proyectos">
-                <div
-                  class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none"
-                >
-                  <img src="" alt="" class="w-full lg:hidden" />
-                </div>
-                <div class="lg:mt-4 flex flex-col">
-                  <h2 class="transition duration-500 ease-in-out hover:text transform hover:translate-x-1 hover:scale-100">                    
-                    <span class="block inline text-light-blue text-xl font-extrabold "
-                      >Ultimos videos de YouTube</span
-                    >          
-                  </h2>
-                  <h3 class="lg:mt-6">
-                    <span class="block inline text-light-blue lg:text-md">
-                      Titulo
-                    </span>
-                  </h3>
-                </div>
+            </div>
+            <div>
+              <div class="max-w-2xl mx-12 py-16 sm:py-24 lg:max-w-7xl">
+                <h2 class="text-light-blue text-2xl font-extrabold tracking-tight transition duration-500 ease-in-out hover:text transform hover:translate-x-1 hover:scale-100">                    
+                Ultimos videos de YouTube</h2>
+                <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 " id="content">
+                </div>  
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer id="contacto" class="w-auto h-24 bg-grayDark px-12">
+    <footer id="contacto" class="w-full h-24 bg-grayDark px-12">
       <div class="flex items-center justify-between">
         <h2 class="text-xl lg:text-3xl">
           <span class="block text-light-blue">Contacto</span>

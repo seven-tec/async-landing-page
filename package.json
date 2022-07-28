@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/seven-tec/async-landing-page#readme",
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
